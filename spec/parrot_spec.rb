@@ -1,5 +1,5 @@
-def bird_call(parrot_string = "Squawk")
-  puts "#{parrot_string}!"
+def bird_call(parrot = "Squawk")
+  puts "#{parrot}!"
 end
 
 equire_relative './spec_helper'
